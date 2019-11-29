@@ -1,6 +1,8 @@
 # MobileNet-SSD with Tensorflow, ROS & NCS2
 
-This repository is a platform to easily **train your own SSD Mobilenet Tensorflow** model for object detection and **inference on Intel Neural Compute Stick 2 (NCS2)** with **ROS** framework. Most importantly, a super detailed [step-by-step instruction](#Step-by-step Instruction) is included!  
+This repository provides a platform to easily **train your cutomized SSD-Mobilenet model with Tensorflow** for object detection and **inference on Intel Neural Compute Stick 2 (NCS2) with ROS**. It is forked from [tensorflow/models](https://github.com/tensorflow/models.git).
+
+**MOST IMPORTANTLY**, a super detailed [step-by-step instruction](#Step-by-step Instruction) is included! 
 
 ## Pre-requisites
 
@@ -40,10 +42,10 @@ models/research/
       pip install tensorflow-gpu
       ```
 
-   2. Clone Tensorflow models repository into your home directory.
+   2. Clone this repository into your home directory.
 
       ```bash
-      cd && git clone https://github.com/tensorflow/models.git
+      cd && git clone https://github.com/songshan0321/ros_ssd_tensorflow.git
       ```
 
    3. Setup Tensorflow training environment.
