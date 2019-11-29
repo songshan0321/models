@@ -46,6 +46,7 @@ models/research/
 
       ```bash
       cd && git clone https://github.com/songshan0321/ros_ssd_tensorflow.git
+      mv ros_ssd_tensorflow models
       ```
 
    3. Setup Tensorflow training environment.
